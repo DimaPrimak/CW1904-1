@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Поиск автомобиля</title>
+  </head>
+  <body>
+    <h1 align="center">🚙USA AUTO🚙</h1>
+    <img src="../img/800px-Flag_of_the_United_States.svg.png" alt="uss" />
+    <img
+      align="right"
+      src="../img/imgonline-com-ua-Resize-lbNKTKX3kXKnSккккк.jpg" alt="rrr"/>
+    <h3 align="center">Выберете параметры автомобиля</h3>
+
+    <form action="https://fom.in.ua/echo">
+      <label for="AUTO">Тип автомобиля</label>
+      <select name="AUTO" id="AUTO" size="1">
+        <option value="Легковой">Легковой</option>
+        <option value="Мото">Мото</option>
+        <option value="Грузовой">Грузовой</option>
+        <option value="Автобус">Автобус</option>
+        <option value="Водный транспорт">Водный транспорт</option>
+      </select>
+      <br />
+      <br />
+      <label for="Country">Страна производитель</label>
+      <select name="Country" id="Country" size="1">
+        <option value="США">США</option>
+        <option value="Германия">Германия</option>
+        <option value="Япония">Япония</option>
+        <option value="Корея">Корея</option>
+        <option value="Китай">Китай</option>
+      </select>
+      <br>
+      <br />
+      <label for="carbrand">Марка авто</label>
+      <select name="car brand" id="carbrand" size="1">
+        <option value="BMW">BMW</option>
+        <option value="AUDI">AUDI</option>
+        <option value="MERSEDES">MERSEDES</option>
+        <option value="TOYOTA">TOYOTA</option>
+        <option value="HONDA">HONDA</option>
+      </select>
+      <br />
+      <p>Тип кузова</p>
+      <input type="checkbox" name="седан" /> седан
+      <br />
+      <input type="checkbox" name="хэтчбэк" /> хэтчбэк
+      <br />
+      <input type="checkbox" name="универсал" /> универсал
+      <br />
+      <input type="checkbox" name="купе" /> купе
+      <br />
+      <input type="checkbox" name="кабриолет" /> кабриолет
+      <br />
+      <br />
+      <label for="option">Состояние</label>
+      <select name="option" id="option" size="1">
+        <option value="Был в дтп">Был в дтп</option>
+        <option value="Б\У">Б\У</option>
+        <option value="Новый">Новый</option>
+        <option value="Не расстаможен">Не расстаможен</option>
+      </select>
+
+      <p>Цена</p>
+      <input type="text" name="price" placeholder="от" />
+      <input type="text" name="price" placeholder="до" />
+      <select name="price">
+        <option value="€">€</option>
+        <option value="$">$</option>
+        <option value="грн">грн</option>
+      </select>
+      <p>Год</p>
+      <input type="text" name="year" placeholder="Год,от" />
+      <input type="text" name="year" placeholder="Год,до" />
+      <p>Топливо</p>
+      <input type="checkbox" name="Бензин" /> Бензин
+      <br />
+      <input type="checkbox" name="Дизель" /> Дизель
+      <br />
+      <input type="checkbox" name="Газ" /> Газ
+      <br />
+      <input type="checkbox" name="Гибрид" /> Гибрид
+      <br />
+      <input type="checkbox" name="Электро" /> Электро
+      <p>КПП</p>
+      <input type="checkbox" name="Автомат" /> Автомат
+      <br />
+      <input type="checkbox" name="Механика" /> Механика
+      <br />
+      <input type="checkbox" name="Вариатор" /> Вариатор
+      <br />
+      <input type="checkbox" name="Типтроник" /> Типтроник
+      <br />
+      <input type="checkbox" name="Робот" /> Робот
+      <p>Тип привода</p>
+      <input type="checkbox" name="Полный" /> Полный
+      <br />
+      <input type="checkbox" name="Передний" /> Передний
+      <br />
+      <input type="checkbox" name="Задний" /> Задний
+      <p>Обьем,л</p>
+      <input type="text" name="Обьем,л" placeholder="От" />
+      <input type="text" name="Обьем,л" placeholder="До" />
+      <p>Пробег, км</p>
+      <input type="text" name="Пробег" placeholder="От" />
+      <input type="text" name="Пробег" placeholder="До" />
+      <p>Кол-во дверей</p>
+      <input type="text" name="дверей" placeholder="От" />
+      <input type="text" name="дверей" placeholder="До" />
+      <p>Кол-во мест</p>
+      <input type="text" name="мест" placeholder="От" />
+      <input type="text" name="мест" placeholder="До" />
+      <p>Цвет</p>
+      <input type="color" name="color" />
+      <p>Доп опции</p>
+      <input type="checkbox" name="ABD" /> ABD
+      <br />
+      <input type="checkbox" name="ESP" /> ESP
+      <br />
+      <input type="checkbox" name="ABS" /> ABS
+      <br />
+      <input type="checkbox" name="AIRBAG" /> AIRBAG
+      <br />
+      <input type="checkbox" name="Мультируль" /> Мультируль
+      <br />
+      <input type="checkbox" name="Сигнализация" /> Сигнализация
+      <br />
+      <input type="checkbox" name="Замок на кпп" /> Замок на кпп
+      <br />
+      <input type="checkbox" name="Пневмоподвеска" /> Пневмоподвеска
+      <br />
+      <input type="checkbox" name="Иммобилайзер" /> Иммобилайзер
+      <br />
+      <input type="checkbox" name="Галогенные фары" /> Галогенные фары
+      <p>Комфорт</p>
+      <input type="checkbox" name="Датчик дождя" /> Датчик дождя
+      <br />
+      <input type="checkbox" name="Подогрев сидений" /> Подогрев сидений
+      <br />
+      <input type="checkbox" name="Парктроник" /> Парктроник
+      <br />
+      <input type="checkbox" name="Имыватель фар" /> Омыватель фар
+      <br />
+      <input type="checkbox" name="Круиз контроль" /> Круизконтроль
+      <br />
+      <input type="checkbox" name="Климат контроль" /> Климат контроль
+      <br />
+      <input type="checkbox" name="Датчик света" /> Датчик света
+      <br />
+      <input type="checkbox" name="Кожаный салон" /> Кожаный салон
+      <br />
+      <input type="checkbox" name="Подогрев зеркал" /> Подогрев зеркал
+      <br />
+      <input type="checkbox" name="Люк" /> Люк
+      <br />
+      <input type="checkbox" name="Электропакет" /> Электропакет
+      <br />
+      <input type="checkbox" name="Бортовой компьютер" /> Бортовой компьютер
+      <br />
+      <input type="checkbox" name="Кондиционер" /> Кондиционер
+      <br />
+      <input type="checkbox" name="Память сидений" /> Память сидений
+      <br />
+      <input type="checkbox" name="Уселитель руля" /> Усилитель руля
+      <p>Мультимедиа</p>
+      <input type="checkbox" name="CD" /> CD
+      <br />
+      <input type="checkbox" name="MP3" /> MP3
+      <br />
+      <input type="checkbox" name="Магнитола" /> Магнитола
+      <br />
+      <input type="checkbox" name="DVD" /> DVD
+      <br />
+      <input type="checkbox" name="Сабвуфер" /> Сабвуфер
+      <br />
+      <input type="checkbox" name="Акустика" /> Акустика
+      <br />
+      <br />
+      <input type="submit" value="Поиск авто" />
+      <input type="reset">
+      <br />
+      <br />
+      <br />
+      <a href="../index.html">Вернуться на главную</a>
+      <br>
+    </form>
+  </body>
+</html>
